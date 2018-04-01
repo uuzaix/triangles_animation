@@ -120,6 +120,7 @@ polygon(80.49% 66.4%, 76.26% 60.3%, 71.39% 66.4% );
 @mixin render($list) {
   @for $i from 1 through 85 {
     .t#{$i} {
+      transition-delay: random(500) + ms !important;
       @if length($list) >= $i {
         clip-path: nth($list, $i);
         background-color: hsl(173, 100, random(120)/2 + 10 );
