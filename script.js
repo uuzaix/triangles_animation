@@ -5,6 +5,10 @@ window.onload = function() {
   }
   var container = document.getElementById("canvas");
   container.innerHTML = htmlElements;
+
+  container.onclick = function() {
+    container.classList.toggle('vue')
+  }
 }
 
 
