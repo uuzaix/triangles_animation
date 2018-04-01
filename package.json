@@ -1,0 +1,15 @@
+{
+  "name": "triangles_animation",
+  "version": "1.0.0",
+  "description": "Animate with triangles - influenced by @akella",
+  "main": "index.js",
+  "scripts": {
+    "build_css": "sass style.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.1.1"
+  }
+}
